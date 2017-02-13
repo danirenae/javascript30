@@ -1,0 +1,39 @@
+.header {
+  color: white;
+}
+
+.keys {
+  display: inline-block;
+  background-image: url(../sounds/crowdcheering.jpg) ;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  float: left;
+  margin: auto;
+}
+
+
+.key {
+  display: inline-block;
+  float: left;
+  border: 4px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  font-size: 1rem .5rem;
+  transition: all 0.07s;
+  width: 7px;
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.5);
+  text-shadow: 0 0 5px black;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 10 #ffc600;
+}
